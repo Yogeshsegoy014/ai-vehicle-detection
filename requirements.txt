@@ -1,0 +1,11 @@
+streamlit
+opencv-python-headless
+numpy
+Pillow
+torch
+torchvision
+torchaudio
+ultralytics
+transformers
+requests
+typing-extensions
