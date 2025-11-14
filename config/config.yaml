@@ -1,0 +1,25 @@
+model:
+  yolov5_path: "models/yolov5s.pt"
+  detection_confidence: 0.4
+
+video:
+  source: "sample_videos/dashboard_drive.mp4"
+  resize_width: 1280
+  resize_height: 720
+
+tracking:
+  enable_tracking: true
+  max_age: 30
+  min_hits: 3
+
+zoom:
+  enable_zoom: true
+  zoom_key: "z"
+
+vehicle_info:
+  enable_info_detection: true
+  blip_model: "Salesforce/blip-image-captioning-large"
+  clip_model: "openai/clip-vit-base-patch32"
+
+openai:
+  api_key: "YOUR_OPENAI_API_KEY"
