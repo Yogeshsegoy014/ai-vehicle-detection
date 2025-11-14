@@ -9,3 +9,4 @@ ultralytics
 transformers
 requests
 typing-extensions
+deep_sort_realtime
